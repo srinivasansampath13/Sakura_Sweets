@@ -17,6 +17,7 @@ body{
     background-color: white;
     width: 500px;
     height: 200px;
+    display: flex;
 }
 h5{
     color: black;
@@ -38,9 +39,6 @@ h5{
 .headerContainer{   
     text-align: center;
     margin-top: -25px;
-}
-.sakuraBranch{
-    margin-top: -3px;
 }
 .sakuraBranchImage{
     width: 500px;
@@ -132,4 +130,32 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.locationLogo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sakuraImageDiv{
+    float: right;
+}
+.locationDiv{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.locationDivView{
+    display: flex;
+}
+.emailDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.emailText{
+    color: orange;
 }
